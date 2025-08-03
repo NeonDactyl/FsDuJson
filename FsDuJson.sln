@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35617.110 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FsDuJson", "FsDuJson\FsDuJson.fsproj", "{3BD52D32-A98B-4402-8AB9-66ACCBDE0D28}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BD52D32-A98B-4402-8AB9-66ACCBDE0D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BD52D32-A98B-4402-8AB9-66ACCBDE0D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BD52D32-A98B-4402-8AB9-66ACCBDE0D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BD52D32-A98B-4402-8AB9-66ACCBDE0D28}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BCF4A571-A907-48A2-8C0E-9D335776A236}
+	EndGlobalSection
+EndGlobal

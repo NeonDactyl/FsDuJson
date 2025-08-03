@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+	  <AssemblyName>FsDuJson</AssemblyName>
+	  <PackageId>FsDuJson</PackageId>
+	  <Version>1.0.0</Version>
+	  <Authors>NeonDactyl</Authors>
+	  <Description>A custom System.Text.Json converter for F# discriminated unions.</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Library.fs" />
+  </ItemGroup>
+
+</Project>
