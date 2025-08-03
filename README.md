@@ -1,4 +1,4 @@
-# FsDuJson: A `System.Text.Json` Converter for F# Discriminated Unions
+# FsDuJson: A System.Text.Json Converter for F# Discriminated Unions
 
 FsDuJson is a custom `System.Text.Json.Serialization.JsonConverterFactory` designed to provide seamless and performant serialization and deserialization of F# discriminated unions (DUs). This library addresses the limitations of the default `System.Text.Json` behavior, enabling you to represent F# DUs in a clean and idiomatic JSON format.
 
