@@ -8,10 +8,36 @@
 	  <Authors>NeonDactyl</Authors>
 	  <Description>A custom System.Text.Json converter for F# discriminated unions.</Description>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <Title>FSharp Discriminated Union Json Serialization</Title>
+    <PackageProjectUrl>https://github.com/NeonDactyl/FsDuJson</PackageProjectUrl>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/NeonDactyl/FsDuJson</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>json;fsharp;discriminated union;serialization</PackageTags>
+    <PackageReleaseNotes>Initial Release</PackageReleaseNotes>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <IncludeSymbols>True</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Include="Library.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
