@@ -40,7 +40,7 @@ let jsonString = JsonSerializer.Serialize(myObj, options)
 let deserialized = JsonSerializer.Deserialize<MyObject>(jsonString, options)
 ```
 
-Using the following types that are heavy with discriminated unions, it will serialize to a much cleaner JSON that other libraries using `Case` and `Fields` notation
+Using the following types that are heavy with discriminated unions, it will serialize to a much cleaner JSON format than other libraries using `Case` and `Fields` notation.
 
 ```json
 {
